@@ -1,0 +1,104 @@
+/* Radio button styles */
+QRadioButton#radioButton::indicator {
+     width: 0;
+     height: 0;
+ }
+ #radioButton:checked {
+     border-bottom: 3px solid DarkTurquoise;
+ }
+ #radioButton:hover {
+     background-color: SlateGray;
+ }
+
+ #radioButton::indicator {
+     background-color: rgb(92, 108, 124);
+     border: 1px solid rgb(92, 108, 124);
+ }
+
+ #radioButton::indicator:hover {
+     background-color: SlateGray;
+     border: 1px solid SlateGray;
+ }
+
+ QRadioButton#radioButton {
+     background-color: rgb(92, 108, 124);
+     padding: 5px;
+ }
+
+ /* Scrollbar styles */
+ QScrollBar:vertical {
+     width: 5px;
+     margin: 0px;
+     background: white;
+ }
+ QScrollBar::handle:vertical {
+     min-height: 20px;
+     background: lightgray;
+ }
+ QScrollBar::add-line:vertical,
+ QScrollBar::sub-line:vertical {     border: none;
+     background: none;
+ }
+ QScrollBar:horizontal {
+     height: 5px;
+     margin: 0px;
+     background: white;
+ }
+ QScrollBar::handle:horizontal {
+     min-width: 20px;
+     background: lightgray;
+ }
+ QScrollBar::add-line:horizontal,
+ QScrollBar::sub-line:horizontal {
+     border: none;
+     background: none;
+ }
+
+ /* Main widget background color */
+ QWidget {
+     background-color: LightSlateGray;
+ }
+
+ /* Go button styles */
+QPushButton {
+    background-color: teal;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+QPushButton:hover {
+    background-color: LightSeaGreen;
+}
+
+QPushButton:pressed {
+    background-color: DarkTurquoise;
+    outline: none;
+}
+
+QPushButton:disabled {
+    background-color: #bfbfbf;
+    color: #666666;
+}
+
+/* List widget styles */
+QListWidget {
+    background-color: rgb(92, 108, 124);
+    color: #FFFFFF;
+    border: none;
+}
+
+QListWidget::item {
+    padding: 3px;
+}
+
+QListWidget::item:hover {
+    background-color: teal;
+}
+
+QListWidget::item:selected {
+    background-color: teal;
+    color: #1A1A1A;
+}

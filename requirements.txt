@@ -1,0 +1,7 @@
+plumbum==1.8.1
+ply==3.11
+pypandoc==1.11
+PyPDF2==3.0.1
+PyQt5==5.15.9
+PyQt5-Qt5==5.15.2
+PyQt5-sip==12.12.1
